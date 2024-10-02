@@ -28,7 +28,7 @@ def create_total_season_df(df):
     return total_season_df
 
 # Load cleaned data
-data_df = pd.read_csv("main_data.csv")
+data_df = pd.read_csv("dashboard/main_data.csv")
 
 datetime_columns = ["dteday"]
 
